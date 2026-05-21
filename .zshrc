@@ -19,7 +19,7 @@ setopt AUTO_CD AUTO_PUSHD PUSHD_IGNORE_DUPS INTERACTIVE_COMMENTS
 
 # ─── JARVIS / FRIDAY theme ────────────────────────────────────────────────────
 if [[ $(date "+%u") -eq 5 ]]; then
-    export STARSHIP_CONFIG=~/.config/fish/starship-friday.toml
+    export STARSHIP_CONFIG=~/zsh/starship-friday.toml
     _J_COLOR=$'\e[38;2;192;132;252m'
     _J_BOLD=$'\e[1;38;2;192;132;252m'
     _J_NAME="F.R.I.D.A.Y."
@@ -27,7 +27,7 @@ if [[ $(date "+%u") -eq 5 ]]; then
     _J_HL='fg=#c084fc,bold'
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#553366'
 else
-    export STARSHIP_CONFIG=~/.config/fish/starship.toml
+    export STARSHIP_CONFIG=~/zsh/starship.toml
     _J_COLOR=$'\e[36m'
     _J_BOLD=$'\e[1;36m'
     _J_NAME="J.A.R.V.I.S."
