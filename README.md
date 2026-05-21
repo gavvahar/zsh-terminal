@@ -32,7 +32,7 @@ Then run `exec zsh` to activate.
 - **Up/Down arrows** search history by the prefix you've already typed
 - **`Ctrl+R`** fuzzy history search via fzf
 - **`z <dir>`** jump to frecent directories via zoxide
-- **Conda base env auto-activation disabled**
+- **Conda** — initializes miniconda if present, with base env auto-activation disabled
 - **FRIDAY mode** — every Friday the theme switches to purple (`#c084fc`)
 
 ## Commands
